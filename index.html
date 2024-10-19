@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5_1</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+<body>
+    <div class="Calc">
+        <input class="result" readonly/>
+        <div class="pannel">
+            <div class="numbers">
+                <div class="row-numbers">
+                    <button class="num" onclick="addnumber(7)">7</button>
+                    <button class="num" onclick="addnumber(8)">8</button>
+                    <button class="num" onclick="addnumber(9)">9</button>
+                </div>
+                <div class="row-numbers">
+                    <button class="num" onclick="addnumber(4)">4</button>
+                    <button class="num" onclick="addnumber(5)">5</button>
+                    <button class="num" onclick="addnumber(6)">6</button>
+                </div>
+                <div class="row-numbers">
+                    <button class="num" onclick="addnumber(1)">1</button>
+                    <button class="num" onclick="addnumber(2)">2</button>
+                    <button class="num" onclick="addnumber(3)">3</button>
+                </div>
+                <div class="row-numbers">
+                    <button class="num" onclick="clearresult()">C</button>
+                    <button class="num" onclick="addnumber(0)">0</button>
+                    <button class="num" onclick="addnumber('.')">.</button>
+                </div>
+            </div>
+    
+            <div class="opertaors">
+                <button class="operator" onclick="addOperator('+')">+</button>
+                <button class="operator" onclick="addOperator('-')">-</button>
+                <button class="operator" onclick="addOperator('*')">*</button>
+                <button class="operator" onclick="addOperator('/')">/</button>
+                <button class="equal" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./Assets/Script/js.js"></script>
+</body>
+</html>

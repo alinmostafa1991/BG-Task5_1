@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Calc
+{
+    width: 24rem;
+    height: 28rem;
+    margin: 50px auto;
+    padding: 0.7rem;
+    box-shadow: 0 3px 10px 1px gray;
+    border-radius: 8px;
+}
+.result
+{
+    width: 100%;
+    height: 4rem;
+    background-color: yellow;
+    margin: 0 auto;
+    padding: 0 0.7rem;
+    border-radius: 4px;
+    font-size: 2rem;
+    margin: 0;
+}
+.pannel
+{
+    width: 100%;
+    height: 20rem;
+    margin: 0.7rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbers
+{
+    width: 15rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row-numbers
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.num
+{
+    width: 4.5rem;
+    height: 4rem;
+    background-color: rgb(248, 71, 71);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.opertaors
+{
+    width: 7rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.operator
+{
+    width: 6rem;
+    height: 3.3rem;
+    background-color: rgb(60, 235, 168);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.equal
+{
+    width: 6rem;
+    height: 3.3rem;
+    background-color: rgb(34, 140, 240);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button
+{
+    font-size: 2.5rem;
+}
+
+
+@media (max-width : 992px)
+{
+    html
+    {
+        font-size: 14px;
+    }
+}
+@media (max-width : 576px)
+{
+    html
+    {
+        font-size: 10px;
+    }
+}
